@@ -1,0 +1,7 @@
+body { background: #1a0033; color: white; font-family: sans-serif; text-align: center; }
+#game { max-width: 600px; margin: 20px auto; }
+#ui { display: flex; justify-content: space-around; margin: 20px 0; font-size: 20px; }
+canvas { background: #2d1b4e; border: 3px solid gold; border-radius: 10px; }
+#spin-btn { font-size: 24px; padding: 15px 40px; margin-top: 20px; background: gold; border: none; border-radius: 8px; cursor: pointer; }
+#spin-btn:disabled { opacity: 0.5; }
+#message { margin-top: 20px; font-size: 22px; min-height: 30px; color: gold; }
